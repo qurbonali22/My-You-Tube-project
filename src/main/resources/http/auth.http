@@ -1,0 +1,32 @@
+### registration
+POST localhost:8081/auth/registration
+Content-Type: application/json
+
+{
+  "name": "Quronali",
+  "surname": "Qulmatov",
+  "email": "allidele574@gmail.com",
+  "password": "12345678"
+}
+
+### login
+POST localhost:8081/auth/authorization
+Content-Type: application/json
+
+{
+  "email": "allidele574@gmail.com",
+  "password": "12345678"
+}
+
+### login
+POST localhost:8081/auth/authorization
+Content-Type: application/json
+
+{
+  "email": "adminceek@gmail.com",
+  "password": "admin"
+}
+
+
+### init admin
+GET localhost:8081/init/admin

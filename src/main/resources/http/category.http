@@ -1,0 +1,13 @@
+### create
+POST localhost:8081/category/add
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2NzE4ODQ3NDIsInVzZXJuYW1lIjoiYWRtaW5jZWVrQGdtYWlsLmNvbSIsInJvbGUiOiJST0xFX0FETUlOIiwiZXhwIjoxNjcxOTcxMTQyLCJpc3MiOiJrdW51eiB0ZXN0IHBvcnRhbGkifQ.yn_PHG8n1LUbVVRwIoccUfLu2sAAL_S113S7h3WhAfoCWfGxQcfnfnQZXyh9QfUz4LrC9Etk1U_xv37u5DIPyg
+Content-Type: application/json
+
+{
+  "name": "Action"
+}
+
+
+### get
+GET localhost:8081/category/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2NzE4MTgzNzMsInVzZXJuYW1lIjoiYWRtaW5jZWVrQGdtYWlsLmNvbSIsInJvbGUiOiJST0xFX0FETUlOIiwiZXhwIjoxNjcxOTA0NzczLCJpc3MiOiJrdW51eiB0ZXN0IHBvcnRhbGkifQ.zL1zONb-V2a3agzT2UtHbw-W5L_qABODeZBtULVYgekoNZCblMrWSHTCmLMgEEFK41MwTtY24pDY7HbXLl8jIQ
